@@ -31,7 +31,7 @@ function Login() {
                     </div>
                     <div className=' py-2'>
                         <label>Password:</label>
-                        <input type="text" className=' w-full px-3 py-2 border outline-none rounded-md' placeholder='Please enter Username' value={password} onChange={(e) => setPassword(e.target.value)} />
+                        <input type="password" className=' w-full px-3 py-2 border outline-none rounded-md' placeholder='Please enter Username' value={password} onChange={(e) => setPassword(e.target.value)} />
                     </div>
                     <div className=' py-2'>
                         <button className=' px-4 py-2 bg-blue-400 rounded-lg text-white'>Login</button>

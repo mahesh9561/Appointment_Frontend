@@ -45,7 +45,7 @@ function Navbar() {
                 {isAuthenticate ? (
                     <>
                         <Link to="/feedback">Appointment Form</Link>
-                        <Link to="/appointment-list">Appointment List</Link>
+                        {/* <Link to="/appointment-list">Appointment List</Link> */}
                         <button onClick={handleLogout}>Logout</button>
                     </>
                 ) : (
